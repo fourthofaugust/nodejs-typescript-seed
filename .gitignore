@@ -1,0 +1,8 @@
+#Build Files
+build/
+
+#Node Modules
+node_modules/
+
+#IDE Files
+.idea/
