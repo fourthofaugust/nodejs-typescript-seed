@@ -9,11 +9,11 @@ class App {
         this.app = express();
         this.port = port;
 
-        this.initializeMiddlewares();
+        this.initializeMiddleware();
         this.initializeControllers(routes);
     }
 
-    private initializeMiddlewares() {
+    private initializeMiddleware() {
         this.app.use(bodyParser.json());
     }
 
